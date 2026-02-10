@@ -12,7 +12,9 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
 }
+import Footer from "../components/Footer.js";
